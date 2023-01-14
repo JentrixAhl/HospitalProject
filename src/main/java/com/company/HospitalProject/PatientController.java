@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class PatientController {
 	
+		
 		@GetMapping("/")
-		@ResponseBody
 		public String HospitalPage() {
 			return "hospital.jsp";
 	}
